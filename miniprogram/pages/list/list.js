@@ -1,6 +1,6 @@
 var WxParse = require('../../wxParse/wxParse.js');
 var app = getApp();
-
+var user_name = getApp().globalData.user_name;
 Page({
 
 
@@ -54,7 +54,7 @@ Page({
     console.log(user_name)
     var nick_name = wx.getStorageSync('nick_name');
     var avatar = wx.getStorageSync('avatar');
-
+    console.log('user的值是：' + user_name)
     if (user_name == "") {
      
 

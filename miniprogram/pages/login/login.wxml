@@ -15,11 +15,11 @@
      <input placeholder="请输入密码" password="true" bindinput="listenerPasswordInput"/> 
     
   </view>
-  <button class='changeBtn' bindtap="loginAction" >登录</button>
+  <button class='changeBtn' bindtap="loginAction" >绑定并登录</button>
  
 <view class='changeInfoName' style='margin-top:50rpx;font-size:14px;line-height:80rpx;color:white;background:none;'>
   <span bindtap='gocv'>用短信验证码登录</span> 
-    
+  <span bindtap='gozhuce' style='float:right;margin-right:20rpx;'>注册账号</span>
 </view>
 
 

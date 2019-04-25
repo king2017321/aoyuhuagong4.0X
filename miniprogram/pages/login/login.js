@@ -139,6 +139,11 @@ Page({
       url: "../yanma/yanma"
     })
   },
-
-
+ 
+ gozhuce:function(e){
+   wx.navigateTo({
+     url: '../zhuce/index',
+   })
+ }
+ 
 })

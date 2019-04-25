@@ -10,10 +10,23 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
-##华南理工中山校友会报名活动小程序
+##华南理工中山校友会报名活动小程序二次开发升级
 
 #预约报名
 
+
+下面是二次升级主要内容2019-04-19
+#会员注册
+#上传毕业照
+#分享认证
+#打开校友录
+#打开企业库
+#自动登录
+#绑定账号
+
+
 #详细方法使用[](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
+
+
 
 #该版本是纯净版，有疑问请联系开发者-----龙道士

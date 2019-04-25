@@ -45,6 +45,7 @@ App({
     avatar: "avatar",
     token: "",
     userInfo: "",
+    
 
     // BaseURL:"http://airb.cakeboss.com.cn" 
     // BaseURL:"http://192.168.0.107:8080" 

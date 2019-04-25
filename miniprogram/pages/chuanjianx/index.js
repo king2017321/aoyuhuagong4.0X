@@ -353,6 +353,7 @@ Page({
       var dianhua = that.data.dianhua;
       var duifang = that.data.duifang;
       var xingbie = e.detail.value.xingbie;
+
       console.log('picker的携带值为' + e.detail.value.picker_hx)
       var ins = this.data.pic_array[e.detail.value.picker_hx - 1].id
       console.log('vb', ins)

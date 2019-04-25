@@ -99,7 +99,7 @@ Page({
 
     setTimeout(function() {
       wx.hideToast()
-    }, 1000)
+    }, 2000)
 
   },
 

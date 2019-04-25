@@ -1,6 +1,7 @@
 var page_size = 10;
 
 var app = getApp().globalData
+
 Page({
 
   data: {
@@ -57,6 +58,15 @@ Page({
 
   onLoad: function(options) {
     this.loadData();
+    wx.showToast({
+      title: '加载君正在加载',
+      icon: 'loading',
+      duration: 100000
+    })
+
+   
+   
+
   },
 
 
@@ -79,7 +89,7 @@ Page({
 
       },
       success: function(res) {
-
+      
         var oldlist = that.data.list
         that.data.page.current = fromShow ? 1 : that.data.page.current
         that.data.page.total = res.data.last
@@ -98,7 +108,9 @@ Page({
       },
       complete: function() {}
     });
-
+    setTimeout(function() {
+      wx.hideToast()
+    }, 2000)
 
   },
   onShow: function() {
@@ -120,9 +132,8 @@ Page({
       },
 
     })
-
-
-
+    
+    
   },
 
   onPullDownRefresh: function() {
@@ -212,6 +223,8 @@ Page({
     console.log(that.data.hidden)
 
 
-
+    
   }
+
+  
 })
